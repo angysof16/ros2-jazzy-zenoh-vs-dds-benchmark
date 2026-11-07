@@ -1,0 +1,3 @@
+### tshark -r v1_zenoh_v1.pcapng -q -z io,phs
+### tshark -r v1_zenoh_v1.pcapng -q -z conv,udp
+### tshark -r v1_zenoh_v1.pcapng -q -z conv,tcp

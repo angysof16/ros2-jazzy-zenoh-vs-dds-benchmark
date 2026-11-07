@@ -1,0 +1,7 @@
+rmw,N,rep,fase,bytes,paquetes,convergencia_s,cpu_pct,rss_mb
+zenoh,5,1,arranque,556695,1539,1.27,1.7,232.5
+zenoh,5,1,reposo,72276,649,1.27,0.8,232.7
+fastdds,5,1,arranque,2371920,5466,1.26,3.1,265.4
+fastdds,5,1,reposo,541286,1193,1.26,0.8,265.4
+cyclone,5,1,arranque,849986,2675,1.27,2.0,168.0
+cyclone,5,1,reposo,102176,746,1.27,0.7,168.5

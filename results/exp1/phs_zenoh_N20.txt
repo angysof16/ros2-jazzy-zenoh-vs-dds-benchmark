@@ -1,0 +1,16 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+eth                                      frames:22133 bytes:8616875
+  ipv6                                   frames:90 bytes:7028
+    icmpv6                               frames:84 bytes:5880
+    udp                                  frames:6 bytes:1148
+      mdns                               frames:6 bytes:1148
+  arp                                    frames:40 bytes:1680
+  ip                                     frames:22003 bytes:8608167
+    tcp                                  frames:22003 bytes:8608167
+      data                               frames:13408 bytes:8016036
+      _ws.malformed                      frames:4 bytes:296
+===================================================================

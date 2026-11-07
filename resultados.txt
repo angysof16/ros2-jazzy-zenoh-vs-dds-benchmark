@@ -1,0 +1,27 @@
+angysof16:~/Downloads/rosmeetup_cartagena_codigo/rosmeetup_cartagena$ sudo lab/check_zenoh.sh
+--- el router debe escuchar en 7447 dentro de base
+=== caso 1 local, todo en base
+conexiones TCP establecidas hacia el puerto 7447 (si no hay ninguna, el override no llego al router)
+0      0               127.0.0.1:42270          127.0.0.1:7447        
+0      0               127.0.0.1:42272          127.0.0.1:7447        
+0      0      [::ffff:127.0.0.1]:7447  [::ffff:127.0.0.1]:42270       
+0      0      [::ffff:127.0.0.1]:7447  [::ffff:127.0.0.1]:42272       
+RESULTADO, PASA
+=== caso 2 peer con endpoint (el que fallo)
+conexiones TCP establecidas hacia el puerto 7447 (si no hay ninguna, el override no llego al router)
+0      0               127.0.0.1:43074          127.0.0.1:7447        
+0      0      [::ffff:10.20.0.2]:7447  [::ffff:10.20.0.1]:34612       
+0      0      [::ffff:127.0.0.1]:7447  [::ffff:127.0.0.1]:43074       
+RESULTADO, FALLA
+=== caso 3 cliente con endpoint (receta del README)
+conexiones TCP establecidas hacia el puerto 7447 (si no hay ninguna, el override no llego al router)
+0      0               127.0.0.1:41760          127.0.0.1:7447        
+0      0      [::ffff:10.20.0.2]:7447  [::ffff:10.20.0.1]:54850       
+0      0      [::ffff:127.0.0.1]:7447  [::ffff:127.0.0.1]:41760       
+RESULTADO, PASA
+=== caso 4 peer escuchando en todas las interfaces
+conexiones TCP establecidas hacia el puerto 7447 (si no hay ninguna, el override no llego al router)
+0      0               127.0.0.1:35400          127.0.0.1:7447        
+0      0      [::ffff:10.20.0.2]:7447  [::ffff:10.20.0.1]:53886       
+0      0      [::ffff:127.0.0.1]:7447  [::ffff:127.0.0.1]:35400       
+RESULTADO, PASA

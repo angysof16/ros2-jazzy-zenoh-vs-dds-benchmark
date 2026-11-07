@@ -1,0 +1,3 @@
+fastdds              p50 ideal     0.75 ms | p50 v1   411.78 ms | subida   411.03 ms | entrega ideal 1.00 v1 0.94 | match_ok 1 | shm_files 4 | PASA
+cyclone              p50 ideal     0.67 ms | p50 v1   103.61 ms | subida   102.94 ms | entrega ideal 1.00 v1 1.00 | match_ok 1 | shm_files 4 | PASA
+zenoh                p50 ideal     1.00 ms | p50 v1 14583.66 ms | subida 14582.66 ms | entrega ideal 1.00 v1 0.20 | match_ok 1 | shm_files 4 | PASA

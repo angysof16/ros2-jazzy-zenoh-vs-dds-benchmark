@@ -1,0 +1,5 @@
+[2m2026-11-06T07:34:34.537033Z[0m [32m INFO[0m ThreadId(02) [2mzenoh::net::runtime[0m[2m:[0m Using ZID: 5b9d9bfcfd182e9309b4926690bfd980
+[2m2026-11-06T07:34:34.537499Z[0m [32m INFO[0m ThreadId(02) [2mzenoh::net::runtime::orchestrator[0m[2m:[0m Zenoh can be reached at: tcp/[fe80::58f9:18ff:fe11:9335]:7447
+[2m2026-11-06T07:34:34.537516Z[0m [32m INFO[0m ThreadId(02) [2mzenoh::net::runtime::orchestrator[0m[2m:[0m Zenoh can be reached at: tcp/10.20.0.2:7447
+Started Zenoh router with id 5b9d9bfcfd182e9309b4926690bfd980
+[2m2026-11-06T07:37:02.567812Z[0m [32m INFO[0m ThreadId(02) [2mzenoh::api::session[0m[2m:[0m close session [3mzid[0m[2m=[0m5b9d9bfcfd182e9309b4926690bfd980

@@ -1,0 +1,13 @@
+[2m2026-11-05T22:23:18.498520Z[0m [31mERROR[0m ThreadId(07) [2mzenohc::session[0m[2m:[0m Error closing session: close operation timed out! at /home/buildfarm/.cargo/git/checkouts/zenoh-cc237f2570fab813/2687c51/zenoh/src/api/builders/close.rs:124.
+Traceback (most recent call last):
+  File "/home/angysof16/Downloads/rosmeetup_cartagena_codigo/rosmeetup_cartagena/src/probe.py", line 134, in <module>
+    main()
+  File "/home/angysof16/Downloads/rosmeetup_cartagena_codigo/rosmeetup_cartagena/src/probe.py", line 130, in main
+    rclpy.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+    _shutdown(context=context)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+    context.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+    self.__context.shutdown()
+RuntimeError: Failed to close the session(Error code: -128 )
